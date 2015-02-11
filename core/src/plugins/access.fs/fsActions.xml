@@ -862,7 +862,7 @@
                 </context>
                 <selectionContext dir="true" file="true" recycle="false" unique="false" allowedMimes="" behaviour="hidden"/>
             </gui>
-            <rightsContext noUser="true" userLogged="only" read="true" write="true" adminOnly=""/>
+            <rightsContext noUser="true" userLogged="only" read="true" write="true" adminOnly="true"/>
             <processing>
                 <clientCallback prepareModal="true"><![CDATA[
                     var userSelection =  ajaxplorer.getUserSelection();
