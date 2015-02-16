@@ -27,10 +27,10 @@
 defined('AJXP_EXEC') or die( 'Access not allowed');
 
 $REPOSITORIES[0] = array(
-    "DISPLAY"		=>	"Default Files",
+    "DISPLAY"		=>	"_root",
     "DISPLAY_ID"    =>  430,
     "DESCRIPTION_ID"=>  475,
-    "AJXP_SLUG"		=>  "default",
+    "AJXP_SLUG"		=>  "_root",
     "DRIVER"		=>	"fs",
     "DRIVER_OPTIONS"=> array(
         "PATH"			=>	"AJXP_DATA_PATH/files",
@@ -65,6 +65,7 @@ $REPOSITORIES[0] = array(
 
 );
 
+/*
 $REPOSITORIES[1] = array(
     "DISPLAY"		=>	"My Files",
     "DISPLAY_ID"    =>  432,
@@ -104,6 +105,7 @@ $REPOSITORIES[1] = array(
     ),
 
 );
+*/
 
 // DO NOT REMOVE THIS!
 // USER DASHBOARD
