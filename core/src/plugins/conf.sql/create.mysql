@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS ajxp_repo_options (
 	oid INTEGER PRIMARY KEY AUTO_INCREMENT,
 	uuid VARCHAR(33) NOT NULL,
 	name VARCHAR(50) NOT NULL,
-	val BLOB,
+	val TEXT,
 	INDEX (uuid)
 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS ajxp_groups (
 
 CREATE TABLE IF NOT EXISTS ajxp_plugin_configs (
   id VARCHAR(50) NOT NULL,
-  configs LONGBLOB NOT NULL,
+  configs LONGTEXT NOT NULL,
   PRIMARY KEY (id)
 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
